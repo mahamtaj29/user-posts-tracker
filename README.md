@@ -1,3 +1,3 @@
 # React + Vite
 
-- Live url: https://user-posts-tracker-krztt8n3w-maham-tajs-projects.vercel.app/
+- Live url: https://user-posts-tracker-mr62oh3p0-maham-tajs-projects.vercel.app
