@@ -10,9 +10,9 @@ export const UserToDos = () => {
     if(error) return <div> Error: {error}</div>
   return (
     <>
-    <div>UserToDos</div>
-    <h2> ToDos for User {userId} </h2>
-    <ul>
+    
+    <ul className='content'>
+    <h2> To-Do List for User {userId} </h2>
         {
             todos.map((todo) => (
                 <li key={todo.id}>

@@ -13,6 +13,7 @@ return (
     <NavBar />
     <Routes>
       <Route path="/" element={<UserList />} />
+      <Route path="/user/:userId" element={<UserDetail />} />
       <Route path="/posts/:userId" element={<UserDetail />} />
       <Route path="/todos/:userId" element={<UserToDos />} />
     </Routes>

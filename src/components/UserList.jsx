@@ -13,10 +13,10 @@ export const UserList = () => {
     <div className='content'>
         {
         users.map((user) => (
-            <div key={user.id}> 
-            <div> {user.name}</div>
-           <button onClick={()=> navigate(`/posts/${user.id}`)}>See Details</button>
-           <button onClick={()=> navigate(`/todos/${user.id}`)}>See to do list</button>
+            <div className='content' key={user.id}> 
+            <div className='content'> {user.name}</div>
+           <button onClick={()=> navigate(`/posts/${user.id}`)}>See Posts</button>
+           <button onClick={()=> navigate(`/todos/${user.id}`)}>See To-Do List</button>
             </div>
         ))}
     </div>

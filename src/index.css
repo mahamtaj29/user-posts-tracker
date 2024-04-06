@@ -5,32 +5,36 @@
 .navbar {
   padding: 20px;
   display: flex;
-  align-items: center;
+  align-items: left;
   max-width: 600px;
   margin: 0 auto;
   border-bottom: 1px solid #f2f2f2;
 }
-.navbar h1 {
+.navbar, .h2, .content1 {
   color: #382d30;
 }
 .navbar .links {
   margin-left: auto;
 }
-.content {
+.content, .content1 {
+  font-family:'Times New Roman', Times, serif;
+  font-weight: 450;
+  font-size: 16px;
   max-width: 600px;
-  margin: 40px auto;
-  padding: 20px;
+  margin: 10px auto;
+  padding: 2px;
   display: flex;
   flex-direction: column;
 }
-button {
-  background-color: #F1356D;
+button, .content1 {
+  background-color: #e15780;
   color: white;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  margin-top: 10px;
+  margin-top: 5px;
+  margin-right: 20px;
 }
 
 button:hover {
@@ -39,7 +43,7 @@ button:hover {
 
 .user-link {
   margin-bottom: 10px;
-  color: #333;
+  color: #151313;
   text-decoration: none;
 }
 
