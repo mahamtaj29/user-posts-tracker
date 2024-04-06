@@ -20,6 +20,8 @@
   max-width: 600px;
   margin: 40px auto;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
 }
 button {
   background-color: #F1356D;
@@ -33,4 +35,22 @@ button {
 
 button:hover {
   background-color: #0056b3;
+}
+
+.user-link {
+  margin-bottom: 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+.user-link:hover {
+  text-decoration: underline;
+}
+
+.loading {
+  color: #777;
+}
+
+.error {
+  color: red;
 }

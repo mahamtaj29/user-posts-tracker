@@ -1,17 +1,16 @@
 import React from 'react'
 import { useUsers } from '../hooks/useUsers'
-import { Link } from 'react-router-dom';
 import { useNavigate } from "react-router-dom";
 
 export const UserList = () => {
     const [users, isLoading, error] = useUsers();
     const navigate = useNavigate();
-    if (isLoading) return <div>Loading.....</div>
-    if (error) return <div>Error: {error}</div>
+    if (isLoading) return <div className="loading">Loading.....</div>
+    if (error) return <div className="error">Error: {error}</div>
 
 
   return (
-    <div>
+    <div className='content'>
         {
         users.map((user) => (
             <div key={user.id}> 
